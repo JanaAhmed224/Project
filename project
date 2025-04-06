@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walk Gaza</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+      text-align: center;
+    }
+    header {
+      background-color: #222;
+      padding: 20px;
+    }
+    main {
+      padding: 40px 20px;
+    }
+    a.button {
+      background-color: #ff4444;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    iframe {
+      margin-top: 40px;
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Walk Gaza: A Virtual Journey Through Reality</h1>
+  </header>
+  <main>
+    <p>Step into a simplified virtual experience of Gaza. This project was created to help the world see and feel what many can't explain.</p>
+    <a class="button" href="#vr">Start Experience</a>
+    
+    <iframe id="vr" src="https://aframe.io/aframe/examples/showcase/helloworld/" title="VR Experience"></iframe>
+  </main>
+</body>
+</html>
